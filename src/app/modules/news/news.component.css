@@ -1,0 +1,24 @@
+.img-dark {
+    filter: brightness(50%);
+}
+
+.titulo-con-linea {
+    text-align: center;
+    position: relative;
+    margin: 10px 0;
+}
+
+.linea-separadora {
+    width: 100px;
+    height: 2px;
+    background-color: #002e60;
+    margin: 0 auto;
+    position: absolute;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+}
+ 
+a {
+    color: #ffffff;
+}
