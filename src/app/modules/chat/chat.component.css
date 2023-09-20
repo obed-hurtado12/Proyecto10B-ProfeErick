@@ -1,0 +1,67 @@
+/* Estilo para el chat */
+.chat-container {
+    max-width: 500px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    background-color: #f0e6e6d5;
+}
+
+/* Estilo para los mensajes */
+.chat-message {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+/* Estilo para los íconos de Bootstrap */
+.glyphicon {
+    margin-right: 5px;
+}
+
+/* Estilo para el botón de enviar */
+#send-button {
+    margin-top: 10px;
+}
+
+/* Estilo para el botón de abrir */
+#toggle-chat-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(2px 2px 4px #000000);
+}
+
+#chatbot-header {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+.btn-chat:hover{
+    opacity: 0.8;
+}
+/* Estilo para div */
+.diva {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px ;
+    border-radius: 5px;
+}
